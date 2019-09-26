@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>对话框</title>
+    <script type="text/javascript">
+        function disp_prompt()
+        {
+        var name=prompt("请输入您的姓名","");
+        var sex=prompt("请输入您的性别","");
+        if (name!=null && name != "")
+        {
+            if (sex=="女")
+            {
+                alert("name+酱，正在为您加载游戏，请稍等……");
+            }
+            else
+            {
+                alert("name+君,正在为您加载游戏，请稍等……")
+            }
+        }
+        }
+        console.log("德丽莎·阿波卡利斯：kiana！你不好好训练，又在这打游戏！！！");
+        console.log("琪亚娜·卡斯兰娜：大————大————大————大姨妈？没————没有，我这是在进行拟态训练！");
+        console.log("你已被德丽莎踢出了游戏😁");
+        
+        
+
+             
+    </script>
+    </head>
+    <body>
+        <input type="button" onclick="disp_prompt()" value="点我开始游戏" />
+    </body>
+</html>

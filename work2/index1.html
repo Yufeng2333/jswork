@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>宇锋的简单网页应用</title>
+    <script>
+        var password = prompt('诶嘿嘿，你也喜欢河马吗（￣。。￣）')
+        if (password == '喜欢'){
+            alert('私も好き～')
+        } else{
+            alert('这谁顶得住啊！！！')
+        }
+
+        function color(str){
+            document.body.style.backgroundColor = str;
+        }
+    </script>
+    </head>
+
+    <body>
+        <input type="button" value="设为红色" onclick="color('red')">
+        <input type="button" value="设为黄色" onclick="color('yellow')">
+        <input type="button" value="设为蓝色" onclick="color('blue')">
+        <input type="button" value="设为自定义颜色" onclick="color('#00FF00')">
+    </body>
+</html>
