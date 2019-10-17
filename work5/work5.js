@@ -1,9 +1,9 @@
 //9x9的空表
 str = '<table border="1">'
-for(let q=9;q>0;--q){
+for(let i=9;i>0;--i){
     str += '<tr>'
-    for(var w=q;w>0;--w){
-        str = '<td>&nbsp;</td>'
+    for(var j=9;j>0;--j){
+        str += '<td>&nbsp;</td>'
     }
     str +='</tr>'
 }
@@ -25,7 +25,7 @@ str = '<table border="1">'
 for(let i=9;i>0;--i){
     str += '<tr>'
     for(var j=i;j>0;--j){
-        str += '<td>&nbsp;</td>'
+        str  += '<td>' + j + '*' + i + '=' + ( j * i ) + '<td>';
     }
     str +='</tr>'
 }
