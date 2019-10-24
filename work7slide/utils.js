@@ -24,6 +24,7 @@ function showLog(logValues,showElement){
     }=logValues.next()
 
     for (const key in row){
+        //让字体变大
         let color = pos.indexOf(Number(key))> -1 ? 'color:red;':''
         str += '<span style="font-size:' + row[key] * 20 + 'px;' +
             color +'">' + row[key] + '</span>'
