@@ -76,8 +76,8 @@ let classes = [
 
 function createOption (obj, data){
     for (var i in data){
-        var op = new Option(data[i], i);
-        obj.options.add(op);
+        var op = new Option(data[i], i)
+        obj.options.add(op)
     }
 }
 
