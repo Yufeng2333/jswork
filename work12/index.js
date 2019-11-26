@@ -1,7 +1,12 @@
-let year = new DataCue().getFullYear()
+let year = new Date().getFullYear()
 
 document.getElementById("cal").innerHTML = calendar(year)
 
-function setCalendar(year) {
+function setCalendar(year){
+
+
+
+
     
-  }
+    
+}
