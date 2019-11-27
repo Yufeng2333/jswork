@@ -21,7 +21,7 @@
         attr:function(attr){
             var html='';
             for(var k in attr){
-                html += k + '="' + attr[k] + '" '
+                html += k + '="' + attr[k] + '" ';
             }
             return html;
         },
@@ -32,7 +32,7 @@
                     html += '<input ' + attr + '>';
                 }else{
                     for(var k in option){
-                        html += '<label><input' + attr + 'value="' + k + '"'+ '>' +option[k]+ '</label>';
+                        html += '<label><input ' + attr + 'value="' + k + '"'+ '>' +option[k]+ '</label>';
                     }
                 }
                 return html;
