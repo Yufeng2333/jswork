@@ -89,12 +89,49 @@
 }
 
 .cart-del,
-.cart-all{
+.cart-all,
+.cart-unall{
     color: #3366d4;
 }
 
 .cart-del:hover,
-.cart-all:hover{
+.cart-all:hover,
+.cart-unall:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+.cart-bottom{
+    height: 55px;
+    text-align: right;
+}
+
+.cart-bottom .cart-all .cart-unall{
+    position: relative;
+    top:1px;
+}
+
+.cart-total-price{
+    color:#ff3334;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.cart-bottom-btn{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 20px;
+    background: #fe8502;
+    border: 1px solid#ff6633;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px 12px;
+}
+
+.cart-bottom-bth:hover{
+    background:#ff6600;
+}
+
+
+
