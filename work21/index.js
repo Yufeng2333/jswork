@@ -12,7 +12,7 @@ $(function () {
     }, function () {
         timer = setInterval(imgChange,delay);
     });
-    $('.dot li'),mouseover(function () {
+    $('.dot li').mouseover(function () {
         i = $(this).index();
         $('.hot').stop().animate({
             left: -i * width
